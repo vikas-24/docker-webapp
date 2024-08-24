@@ -11,8 +11,8 @@ services:
   build: ./docker-app
   container_name: app-cont
   ports:
-   - "8520:80"
+   - "8520:8080"
 
-   depends_on:
+  depends_on:
      - "db"   
   
